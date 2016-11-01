@@ -34,7 +34,7 @@ class BreadcrumbItem extends React.Component {
     const linkProps = { href, title, target };
 
     return (
-      <li className={classNames(className, { active })}>
+      <li className={classNames({ active }, className)}>
         {active ?
           <span {...props} /> :
           <SafeAnchor {...props} {...linkProps} />

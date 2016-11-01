@@ -58,7 +58,7 @@ class FormControl extends React.Component {
         {...elementProps}
         type={type}
         id={id}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

@@ -113,7 +113,7 @@ class MenuItem extends React.Component {
         <li
           {...elementProps}
           role="separator"
-          className={classNames(className, 'divider')}
+          className={classNames('divider', className)}
           style={style}
         />
       );
@@ -124,7 +124,7 @@ class MenuItem extends React.Component {
         <li
           {...elementProps}
           role="heading"
-          className={classNames(className, prefix(bsProps, 'header'))}
+          className={classNames(prefix(bsProps, 'header'), className)}
           style={style}
         />
       );
@@ -133,7 +133,7 @@ class MenuItem extends React.Component {
     return (
       <li
         role="presentation"
-        className={classNames(className, { active, disabled })}
+        className={classNames({ active, disabled }, className)}
         style={style}
       >
         <SafeAnchor

@@ -53,7 +53,7 @@ class ListGroup extends React.Component {
     return (
       <Component
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       >
         {useListItem ?
           ValidComponentChildren.map(children, child => (

@@ -32,7 +32,7 @@ class FormControlFeedback extends React.Component {
       <Glyphicon
         {...elementProps}
         glyph={glyph}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

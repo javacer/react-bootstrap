@@ -67,7 +67,7 @@ class Radio extends React.Component {
       );
 
       return (
-        <label className={classNames(className, classes)} style={style}>
+        <label className={classNames(classes, className)} style={style}>
           {input}
           {children}
         </label>
@@ -83,7 +83,7 @@ class Radio extends React.Component {
     }
 
     return (
-      <div className={classNames(className, classes)} style={style}>
+      <div className={classNames(classes, className)} style={style}>
         <label>
           {input}
           {children}

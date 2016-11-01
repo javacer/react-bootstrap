@@ -70,7 +70,7 @@ class PanelGroup extends React.Component {
     return (
       <div
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       >
         {ValidComponentChildren.map(children, child => {
           const childProps = {

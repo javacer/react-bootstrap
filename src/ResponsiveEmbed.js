@@ -51,7 +51,7 @@ class ResponsiveEmbed extends React.Component {
       <div className={classNames(classes)}>
         {cloneElement(children, {
           ...elementProps,
-          className: classNames(className, prefix(bsProps, 'item')),
+          className: classNames(prefix(bsProps, 'item'), className),
         })}
       </div>
     );

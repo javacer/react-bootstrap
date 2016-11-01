@@ -313,7 +313,7 @@ class Nav extends React.Component {
       <ul
         {...elementProps}
         role={role}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       >
         {ValidComponentChildren.map(children, child => {
           const active = this.isActive(child, activeKey, activeHref);

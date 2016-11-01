@@ -16,7 +16,7 @@ class ButtonToolbar extends React.Component {
       <div
         {...elementProps}
         role="toolbar"
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

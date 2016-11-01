@@ -17,7 +17,7 @@ class NavbarHeader extends React.Component {
     const bsClassName = prefix(navbarProps, 'header');
 
     return (
-      <div {...props} className={classNames(className, bsClassName)} />
+      <div {...props} className={classNames(bsClassName, className)} />
     );
   }
 }

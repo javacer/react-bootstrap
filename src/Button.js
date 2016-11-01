@@ -61,7 +61,7 @@ class Button extends React.Component {
       active,
       [prefix(bsProps, 'block')]: block,
     };
-    const fullClassName = classNames(className, classes);
+    const fullClassName = classNames(classes, className);
 
     if (elementProps.href) {
       return this.renderAnchor(elementProps, fullClassName);

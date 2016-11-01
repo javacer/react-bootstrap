@@ -51,7 +51,7 @@ class PagerItem extends React.Component {
 
     return (
       <li
-        className={classNames(className, { disabled, previous, next })}
+        className={classNames({ disabled, previous, next }, className)}
         style={style}
       >
         <SafeAnchor

@@ -48,7 +48,7 @@ class Image extends React.Component {
     return (
       <img
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

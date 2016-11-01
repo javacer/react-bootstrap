@@ -56,7 +56,7 @@ class Alert extends React.Component {
       <div
         {...elementProps}
         role="alert"
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       >
         {dismissable && this.renderDismissButton(onDismiss)}
         {children}

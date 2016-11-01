@@ -13,7 +13,7 @@ class ModalTitle extends React.Component {
     return (
       <h4
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

@@ -45,7 +45,7 @@ class Table extends React.Component {
     const table = (
       <table
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
 

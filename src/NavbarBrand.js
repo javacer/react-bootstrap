@@ -25,7 +25,7 @@ class NavbarBrand extends React.Component {
     }
 
     return (
-      <span {...props} className={classNames(className, bsClassName)}>
+      <span {...props} className={classNames(bsClassName, className)}>
         {children}
       </span>
     );

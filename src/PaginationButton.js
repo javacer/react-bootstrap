@@ -64,7 +64,7 @@ class PaginationButton extends React.Component {
 
     return (
       <li
-        className={classNames(className, { active, disabled })}
+        className={classNames({ active, disabled }, className)}
         style={style}
       >
         <Component

@@ -311,7 +311,7 @@ class Dropdown extends React.Component {
     return (
       <Component
         {...props}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       >
         {ValidComponentChildren.map(children, child => {
           switch (child.props.bsRole) {

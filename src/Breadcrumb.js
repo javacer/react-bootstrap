@@ -16,7 +16,7 @@ class Breadcrumb extends React.Component {
         {...elementProps}
         role="navigation"
         aria-label="breadcrumbs"
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

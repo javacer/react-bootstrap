@@ -86,7 +86,7 @@ class ProgressBar extends React.Component {
       <div
         {...elementProps}
         role="progressbar"
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
         style={{ width: `${getPercentage(now, min, max)}%`, ...style }}
         aria-valuenow={now}
         aria-valuemin={min}
@@ -122,7 +122,7 @@ class ProgressBar extends React.Component {
     return (
       <div
         {...wrapperProps}
-        className={classNames(className, 'progress')}
+        className={classNames('progress', className)}
       >
         {children ?
           ValidComponentChildren.map(children, child => (

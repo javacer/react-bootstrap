@@ -192,7 +192,7 @@ class Navbar extends React.Component {
     return (
       <Component
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       >
         <Grid fluid={fluid}>
           {children}

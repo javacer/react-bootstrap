@@ -64,7 +64,7 @@ class NavDropdown extends React.Component {
       <Dropdown
         {...dropdownProps}
         componentClass="li"
-        className={classNames(className, { active })}
+        className={classNames({ active }, className)}
         style={style}
       >
         <Dropdown.Toggle {...toggleProps} useAnchor>

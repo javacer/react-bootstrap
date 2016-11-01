@@ -198,7 +198,7 @@ class Panel extends React.Component {
     return (
       <div
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
         id={collapsible ? null : id}
       >
         {header && (

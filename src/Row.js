@@ -22,7 +22,7 @@ class Row extends React.Component {
     return (
       <Component
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

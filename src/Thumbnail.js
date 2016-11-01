@@ -21,7 +21,7 @@ class Thumbnail extends React.Component {
     return (
       <Component
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       >
         <img src={src} alt={alt} />
 

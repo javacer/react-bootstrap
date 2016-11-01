@@ -149,7 +149,7 @@ class TabContent extends React.Component {
     return (
       <Component
         {...elementProps}
-        className={classNames(className, prefix(bsProps, 'content'))}
+        className={classNames(prefix(bsProps, 'content'), className)}
       />
     );
   }

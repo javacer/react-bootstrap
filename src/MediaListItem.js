@@ -13,7 +13,7 @@ class MediaListItem extends React.Component {
     return (
       <li
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

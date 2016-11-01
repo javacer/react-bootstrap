@@ -34,7 +34,7 @@ class ModalDialog extends React.Component {
         tabIndex="-1"
         role="dialog"
         style={modalStyle}
-        className={classNames(className, bsClassName)}
+        className={classNames(bsClassName, className)}
       >
         <div className={classNames(dialogClassName, dialogClasses)}>
           <div className={prefix(bsProps, 'content')} role="document">

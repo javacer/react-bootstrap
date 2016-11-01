@@ -190,7 +190,7 @@ class Collapse extends React.Component {
       <Transition
         {...props}
         aria-expanded={props.role ? props.in : null}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
         exitedClassName="collapse"
         exitingClassName="collapsing"
         enteredClassName="collapse in"

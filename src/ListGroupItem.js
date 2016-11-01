@@ -66,7 +66,7 @@ class ListGroupItem extends React.Component {
       Component = 'span';
     }
 
-    elementProps.className = classNames(className, classes);
+    elementProps.className = classNames(classes, className);
 
     // TODO: Deprecate `header` prop.
     if (header) {

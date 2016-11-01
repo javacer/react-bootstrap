@@ -42,7 +42,7 @@ class ControlLabel extends React.Component {
       <label
         {...elementProps}
         htmlFor={htmlFor}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

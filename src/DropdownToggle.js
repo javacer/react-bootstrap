@@ -44,7 +44,7 @@ class DropdownToggle extends React.Component {
       <Component
         {...props}
         role="button"
-        className={classNames(className, bsClass)}
+        className={classNames(bsClass, className)}
         aria-haspopup
         aria-expanded={open}
       >

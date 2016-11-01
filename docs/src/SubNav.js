@@ -83,7 +83,7 @@ class SubNav extends React.Component {
     };
 
     return (
-      <li className={classNames(className, classes)} style={style}>
+      <li className={classNames(classes, className)} style={style}>
         <SafeAnchor {...props}>
           {text}
         </SafeAnchor>

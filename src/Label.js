@@ -36,7 +36,7 @@ class Label extends React.Component {
     return (
       <span
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       >
         {children}
       </span>

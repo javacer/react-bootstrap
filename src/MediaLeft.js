@@ -27,7 +27,7 @@ class MediaLeft extends React.Component {
     return (
       <div
         {...elementProps}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

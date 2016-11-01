@@ -102,7 +102,7 @@ class CarouselItem extends React.Component {
     return (
       <div
         {...props}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
   }

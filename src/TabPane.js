@@ -237,7 +237,7 @@ class TabPane extends React.Component {
         {...elementProps}
         role="tabpanel"
         aria-hidden={!active}
-        className={classNames(className, classes)}
+        className={classNames(classes, className)}
       />
     );
 
